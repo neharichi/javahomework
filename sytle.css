@@ -1,0 +1,25 @@
+.button-red {
+    background-color: rgb(133, 23, 4);
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+  }
+
+  .button-grey {
+    background-color: rgb(180, 176, 169);
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+  }
+
+  .buttonRound {border-radius: 15px;}

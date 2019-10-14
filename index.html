@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="sytle.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="script.js">
+
+</script>
+<body>
+  <div class="container bg-white m-100 mx-auto">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="page-header  p-2 mb-1 text-black text-center">
+          <h2>Password Generator</h2>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">    
+        <form method="get" id="form1"></form>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label   class="font-weight-bold" for="password">Generate a Password</label>
+                <hr>
+                <textarea class="form-control"  readonly id="password" aria-label="Your Secure Password">Your Secure Password</textarea>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-group">
+                <button id="generate" type="submit" class="button-red buttonRound" onclick="generatePassword(10)">Generate Password</button>
+              </div>
+
+            </div>
+            <div class="col-md-4"> </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <button id="copy"  type="button" class="button-grey buttonRound" onclick="CopyToClipboard()">Copy to Clipboard</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
